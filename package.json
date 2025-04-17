@@ -1,6 +1,6 @@
 {
   "name": "test-eslint-prettier",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,15 +12,15 @@
     "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
-    "eslint-config-prettier": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.30.1",
+    "@typescript-eslint/parser": "^8.30.1",
+    "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-tailwindcss": "^3.17.4",
-    "eslint-plugin-unused-imports": "^3.2.0",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
     "next": "14.2.5",
-    "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.5",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "react": "^18",
     "react-dom": "^18"
   },
